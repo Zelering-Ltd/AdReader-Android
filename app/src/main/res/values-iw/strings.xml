@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="INIT_ERROR">שְׁגִיאָה</string>
+    <string name="INIT_ERROR_DEVICE_NOT_SUPPORTED">נכשל camera. התקן זה אינו נתמך.</string>
+    <string name="INIT_ERROR_NO_CAMERA_ACCESS">נכשל Vuforia. מצלמה לא נגיש</string>
+    <string name="INIT_LICENSE_ERROR_CANCELED_KEY">מפתח רישיון יישום זה בוטל ועשוי כבר לא לשמש. אנא לקבל מפתח רישיון חדש.</string>
+    <string name="INIT_LICENSE_ERROR_INVALID_KEY">מפתח לא חוקי להשתמש. אנא ודא כי אתה משתמש במפתח App Vuforia תקף.</string>
+    <string name="INIT_LICENSE_ERROR_MISMATCH_KEY">מפתח Vuforia אפליקציה אינו תקף עבור מוצר זה. אנא לקבל מפתח חוקי, על ידי כניסה לחשבון שלך ב developer.vuforia.com ובחירת סוג המוצר הנכון במהלך יצירת פרויקט.</string>
+    <string name="INIT_LICENSE_ERROR_MISSING_KEY">מפתח Vuforia App חסר. אנא לקבל מפתח חוקי, על ידי כניסה לחשבון שלך ב developer.vuforia.com ויצירת פרויקט חדש.</string>
+    <string name="INIT_LICENSE_ERROR_NO_NETWORK_PERMANENT">אין רשת זמינה. אנא ודא כי אתה מחובר לאינטרנט.</string>
+    <string name="INIT_LICENSE_ERROR_NO_NETWORK_TRANSIENT">אי אפשר להתחבר לשרת. בבקשה נסה שוב מאוחר יותר.</string>
+    <string name="INIT_LICENSE_ERROR_PRODUCT_TYPE_MISMATCH">מפתח Vuforia אפליקציה אינו תקף עבור מוצר זה. אנא לקבל מפתח חוקי, על ידי כניסה לחשבון שלך ב developer.vuforia.com ובחירת סוג המוצר הנכון במהלך יצירת פרויקט.</string>
+    <string name="INIT_LICENSE_ERROR_UNKNOWN_ERROR">נכשל Vuforia.</string>
+    <string name="INIT_OBJECT_DATASET_NOT_FOUND">אנא לסרוק אובייקט לטעון מסד נתונים</string>
+    <string name="INIT_OBJECT_DATASET_NOT_FOUND_TITLE">מאגר לא נמצא</string>
+    <string name="menu_camera">מַצלֵמָה</string>
+    <string name="menu_camera_back">אחורי</string>
+    <string name="menu_camera_front">חֲזִית</string>
+    <string name="menu_character_mode">מצב אופי</string>
+    <string name="menu_contAutofocus">פוקוס אוטומטי</string>
+    <string name="menu_flash">הֶבזֵק</string>
+    <string name="menu_flash_error_off">לא ניתן לכבות פלאש</string>
+    <string name="menu_flash_error_on">לא ניתן להפעיל פלאש</string>
+    <string name="app_name">קורא מודעות</string>
+    <string name="btn_start">התחל</string>
+    <string name="button_start">התחל</string>
+    <string name="camera_screen_msg_detail"> כוונו את המצלמה לעבר תמונה של מוצר
+במודעות הום סנטר המודפסות וקבלו מידע
+מפורט יותר, תמונות נוספות ואף סרטוני וידיאו
+על המוצר. </string>
+    <string name="camera_screen_msg_detail_title">הוראות שימוש:</string>
+    <string name="camera_screen_msg">קורא המודעות של הום סנטר </string>
+    <string name="menu_back">קורא מודעות</string>
+    <string name="point_camera">כוונו את מצלמת הנייד לתמונת מוצר במודעה וקבלו מידע נוסף</string>
+    <string name="rational_permission_proceed">בטוח</string>
+    <string name="permission_string_btn">בסדר</string>
+    <string name="camera_permission">קורא המודעות דורש אישור מצלמה</string>
+
+</resources>

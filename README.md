@@ -1,6 +1,6 @@
 # AdReader-Android
  					
-Steps for genarating Local artifact:
+### Steps for genarating Local artifact:
 
 1. Open Terminal to navigate to AdReader directory.
 
@@ -43,7 +43,7 @@ For jitpack repo local:
  ```
  compile 'com.github.Zelering-Ltd:AdReader-Android:-SNAPSHOT'
 ```
-Step 3: Add following line in your main activity
+### 3: Add following line in your main activity
   ```java
   Config config= new Config()
  Config.Builder builder = config.Builder();

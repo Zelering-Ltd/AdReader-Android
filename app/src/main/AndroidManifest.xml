@@ -10,14 +10,13 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-    <application>
+    <application android:hardwareAccelerated="true">
         <activity
             android:name="com.zelering.AdReader.lib.ui.ActivityList.ActivityAdreadHome"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:noHistory="true"
             android:screenOrientation="portrait"
-            android:theme="@style/SampleAppsTheme">
-        </activity>
+            android:theme="@style/SampleAppsTheme"></activity>
         <activity
             android:name="com.zelering.AdReader.lib.app.CloudRecognition.CloudReco"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
@@ -28,9 +27,9 @@
             android:name="com.zelering.AdReader.lib.WebViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:label="@string/title_activity_web_view"
+            android:parentActivityName="com.zelering.AdReader.lib.app.CloudRecognition.CloudReco"
             android:screenOrientation="portrait"
-            android:theme="@style/SampleAppsTheme"
-            android:parentActivityName="com.zelering.AdReader.lib.app.CloudRecognition.CloudReco">
+            android:theme="@style/SampleAppsTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.zelering.AdReader.lib.app.CloudRecognition.CloudReco" />

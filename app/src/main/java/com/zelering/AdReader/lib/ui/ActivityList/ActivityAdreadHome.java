@@ -8,7 +8,6 @@ import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.percent.PercentRelativeLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -23,7 +22,7 @@ import com.zelering.AdReader.lib.model.Config;
 
 public class ActivityAdreadHome extends PermissionSupportActivity implements Permission.PermissionCallback {
     private static String vuforia_lic_key;
-    private static int imgLogoInt = R.drawable.logo;
+    private static int imgLogoInt = R.drawable.logo_vuforia;
 
     private static String kAccessKey;
     private static String kSecretKey;

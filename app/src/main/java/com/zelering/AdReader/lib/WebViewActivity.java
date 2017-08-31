@@ -3,12 +3,10 @@ package com.zelering.AdReader.lib;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
@@ -23,7 +21,7 @@ import com.zelering.AdReader.lib.model.Product;
 public class WebViewActivity extends AppCompatActivity {
 
     private static String toolbarColor = "#ffffff";
-    private static int imgLogoInt = R.drawable.logo;
+    private static int imgLogoInt = R.drawable.logo_vuforia;
     private static String backColor = "#da1c28";
 
     private VideoEnabledWebView webView;
@@ -46,7 +44,7 @@ public class WebViewActivity extends AppCompatActivity {
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getDataFromIntent();
         // Save the web view
-        webView = (VideoEnabledWebView) findViewById(R.id.webView);
+        webView = (VideoEnabledWebView) findViewById(R.id.webView_new_id);
         imgBackArrow = (ImageView) findViewById(R.id.imgBackArrow);
         imgLogo=(ImageView)findViewById(R.id.imgLogo);
 

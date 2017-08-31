@@ -94,6 +94,7 @@ public class ActivityAdreadHome extends PermissionSupportActivity implements Per
         intent.putExtra(KEY_SECRETKEY, SecretKey);
         intent.putExtra(KEY_ACCESSKEY, AccessKey);
         intent.putExtra(KEY_CONFIG, config);
+
         return intent;
     }
 

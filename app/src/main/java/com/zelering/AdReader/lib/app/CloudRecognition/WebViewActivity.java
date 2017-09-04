@@ -1,4 +1,4 @@
-package com.zelering.AdReader.lib;
+package com.zelering.AdReader.lib.app.CloudRecognition;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -14,8 +14,9 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
 
-import com.zelering.AdReader.lib.R;
 import com.zelering.AdReader.VideoEnabledWebChromeClient;
+import com.zelering.AdReader.lib.R;
+import com.zelering.AdReader.lib.VideoEnabledWebView;
 import com.zelering.AdReader.lib.model.Config;
 import com.zelering.AdReader.lib.model.Product;
 

@@ -16,7 +16,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:noHistory="true"
             android:screenOrientation="portrait"
-            android:theme="@style/SampleAppsTheme"></activity>
+            android:theme="@style/SampleAppsTheme" />
         <activity
             android:name="com.zelering.AdReader.lib.app.CloudRecognition.CloudReco"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
@@ -24,7 +24,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/SampleAppsTheme" />
         <activity
-            android:name="com.zelering.AdReader.lib.WebViewActivity"
+            android:name="com.zelering.AdReader.lib.app.CloudRecognition.WebViewActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
             android:label="@string/title_activity_web_view"
             android:parentActivityName="com.zelering.AdReader.lib.app.CloudRecognition.CloudReco"

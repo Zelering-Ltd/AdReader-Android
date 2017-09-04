@@ -28,7 +28,6 @@ import com.zelering.AdReader.SampleApplication.utils.LoadingDialogHandler;
 import com.zelering.AdReader.SampleApplication.utils.SampleApplicationGLView;
 import com.zelering.AdReader.SampleApplication.utils.Texture;
 import com.zelering.AdReader.lib.R;
-import com.zelering.AdReader.lib.WebViewActivity;
 import com.zelering.AdReader.lib.model.Config;
 import com.zelering.AdReader.lib.model.Product;
 import com.zelering.AdReader.lib.ui.SampleAppMenu.SampleAppMenu;

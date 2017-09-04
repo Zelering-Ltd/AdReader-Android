@@ -38,7 +38,7 @@ public class WebViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_web_view);
+        setContentView(R.layout.activity_web_new_view);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
 
 

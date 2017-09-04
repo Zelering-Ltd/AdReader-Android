@@ -14,6 +14,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
 
+import com.zelering.AdReader.lib.R;
 import com.zelering.AdReader.VideoEnabledWebChromeClient;
 import com.zelering.AdReader.lib.model.Config;
 import com.zelering.AdReader.lib.model.Product;
@@ -29,7 +30,7 @@ public class WebViewActivity extends AppCompatActivity {
     private java.lang.String productUrl = "http://www.google.com";
     private Product product;
     private Toolbar toolbar;
-    private ImageView imgBackArrow,imgLogo;
+    private ImageView imgBackArrow, imgLogo;
     private static Config config;
 
 
@@ -44,9 +45,9 @@ public class WebViewActivity extends AppCompatActivity {
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getDataFromIntent();
         // Save the web view
-        webView = (VideoEnabledWebView) findViewById(R.id.webView_new_id);
+        webView = (VideoEnabledWebView) findViewById(R.id.webView_new);
         imgBackArrow = (ImageView) findViewById(R.id.imgBackArrow);
-        imgLogo=(ImageView)findViewById(R.id.imgLogo);
+        imgLogo = (ImageView) findViewById(R.id.imgLogo);
 
         // Initialize the VideoEnabledWebChromeClient and set event handlers
         View nonVideoLayout = findViewById(R.id.nonVideoLayout); // Your own view, read class comments
@@ -91,7 +92,7 @@ public class WebViewActivity extends AppCompatActivity {
 
         imgBackArrow.setColorFilter(Color.parseColor(backColor), PorterDuff.Mode.SRC_ATOP);
 
-       // getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor(toolbarColor)));
+        // getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor(toolbarColor)));
         imgLogo.setImageDrawable(this.getResources().getDrawable(imgLogoInt));
 
         imgBackArrow.setOnClickListener(new View.OnClickListener() {
@@ -100,7 +101,7 @@ public class WebViewActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
-       // getSupportActionBar().setTitle(Html.fromHtml("<font color='" + toolbarTextColor + "'>" + product.getName() + "</font>"));
+        // getSupportActionBar().setTitle(Html.fromHtml("<font color='" + toolbarTextColor + "'>" + product.getName() + "</font>"));
 
     }
 
@@ -109,7 +110,7 @@ public class WebViewActivity extends AppCompatActivity {
             product = (Product) getIntent().getExtras().getSerializable("product");
             toolbarColor = (String) getIntent().getExtras().getString("toolbarColor");
             imgLogoInt = (Integer) getIntent().getExtras().getInt("imgLogo");
-            backColor=(String) getIntent().getExtras().getString("backColor");
+            backColor = (String) getIntent().getExtras().getString("backColor");
             productUrl = product.getUri();
         }
     }
@@ -125,12 +126,12 @@ public class WebViewActivity extends AppCompatActivity {
         }
     }
 
-    public static Intent creatIntent(Activity context, Product product, String toolbarColor, int toolbarTextColor ,String backColor) {
+    public static Intent creatIntent(Activity context, Product product, String toolbarColor, int toolbarTextColor, String backColor) {
         Intent intent = new Intent(context, WebViewActivity.class);
         intent.putExtra("product", product);
         intent.putExtra("toolbarColor", toolbarColor);
         intent.putExtra("imgLogo", toolbarTextColor);
-        intent.putExtra("backColor",backColor);
+        intent.putExtra("backColor", backColor);
         return intent;
     }
 
